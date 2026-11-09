@@ -604,7 +604,7 @@ window.AEGIS_IC_MARKUP="<div class=\"ic-root\"><main class=\"ic-wrap\">\r\n<sect
 (function () {
   'use strict';
   const C = window.AegisCheck, G = window.AegisGate; if (!C || !G) return;
-  const SHEET_URL = ""; // build constant: build-v1.mjs fills it from the SHEET_URL environment variable
+  const SHEET_URL = "https://script.google.com/macros/s/AKfycby0Q8FaHLarHiLFmKlZDgVFi0PWttUYnbAzcyLKDrZRhBGz7sl9WNZIfDXvqPOG338/exec"; // build constant: build-v1.mjs fills it from the SHEET_URL environment variable
   /* Production: the page has an empty <div id="aegis-ic"></div> (or none); the markup ships inside the script. */
   if (window.AEGIS_IC_MARKUP && !document.getElementById('icCheck')) {
     let mount = document.getElementById('aegis-ic');
